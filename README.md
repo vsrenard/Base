@@ -15,7 +15,6 @@ Exit - завершение программы.
 Пример
 ---------
 *Input:*
-***
 Insert cat kitten  
 Insert dog puppy  
 Insert cat white  
@@ -24,8 +23,7 @@ DeleteByValue white
 FindByValue kit  
 Exit  
 ***
-*Output:*  
-***
+*Output:* 
 cat kitten  
 cat white  
 cat kitten  
