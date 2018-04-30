@@ -36,42 +36,42 @@ fun main(args: Array<String>)
 	var base = Base()
 	while (true)
 	{
-        var input = readLine()!!.split(' ')
-        var operation = input[0]
-        var str1 = input[1]
-        var str2 : String
-        if (operation == "insert")
-        {
-            str2 = input[2]
-            base.insert(str1, str2)
-        }
-        if (operation == "FindByKey")
-        {
-            var res = base.FindByKey(str1)
-            for (p in res)
-            {
-                println(p.key + " " +  p.value)
-            }
-        }
-        if (operation == "FindByValue")
-        {
-            var res = base.FindByValue(str1)
-            for (p in res)
-            {
-                println(p.key + " " + p.value)
-            }
-        }	
-        if (operation == "DeleteByKey")
-        {
-            base.DeleteByKey(str1)
-        }
-        if (operation == "DeleteByValue")
-        {
-            base.DeleteByValue(str1)
-        }	
-        if (operation == "exit")
-        {
-            break
-        }
+		var input = readLine()!!.split(' ')
+		var operation = input[0]
+		var str1 = input[1]
+		var str2 : String
+		if (operation == "insert")
+		{
+		    str2 = input[2]
+		    base.insert(str1, str2)
+		}
+		if (operation == "FindByKey")
+		{
+		    var res = base.FindByKey(str1)
+		    for (p in res)
+		    {
+			println(p.key + " " +  p.value)
+		    }
+		}
+		if (operation == "FindByValue")
+		{
+		    var res = base.FindByValue(str1)
+		    for (p in res)
+		    {
+			println(p.key + " " + p.value)
+		    }
+		}	
+		if (operation == "DeleteByKey")
+		{
+		    base.DeleteByKey(str1)
+		}
+		if (operation == "DeleteByValue")
+		{
+		    base.DeleteByValue(str1)
+		}	
+		if (operation == "exit")
+		{
+		    break
+		}
 	}
 }
