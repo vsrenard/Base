@@ -38,9 +38,13 @@ fun main(args: Array<String>)
 	{
 		var input = readLine()!!.split(' ')
 		var operation = input[0]
+		if (operation == "Exit")
+		{
+		    break
+		}
 		var str1 = input[1]
 		var str2 : String
-		if (operation == "insert")
+		if (operation == "Insert")
 		{
 		    str2 = input[2]
 		    base.insert(str1, str2)
@@ -69,9 +73,5 @@ fun main(args: Array<String>)
 		{
 		    base.DeleteByValue(str1)
 		}	
-		if (operation == "exit")
-		{
-		    break
-		}
 	}
 }
