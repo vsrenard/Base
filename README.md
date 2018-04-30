@@ -7,6 +7,6 @@ Base
 ------------
 
 Cоздайте объект класса Base, тогда вам станут доступны следующие функции:  
-insert key value - добавление пары key : value,  
+Insert key value - добавление пары key : value,  
 DeleteByKey/DeleteByValue key/value - удаление пары по ключу и/или значению,  
 FindByKey/FindByValue key/value - поиск пар по фрагменту значения и/или ключа  
